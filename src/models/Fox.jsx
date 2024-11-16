@@ -9,7 +9,6 @@ Title: Fox
 import React, { useEffect, useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import scene from '../assets/3d/fox.glb'
-import { actionAsyncStorage } from 'next/dist/client/components/action-async-storage.external'
 
 
 const Fox = ({ currentAnimation, ...props }) => {
