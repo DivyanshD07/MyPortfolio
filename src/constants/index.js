@@ -213,12 +213,12 @@ export const projects = [
         github_link: 'https://github.com/DivyanshD07/Spiderman_Tunnel',
         live_link: 'https://spiderman-tunnel.vercel.app/'
     },
-    {
-        // iconUrl: pricewise,
-        // theme: 'btn-back-red',
-        name: 'FindWork',
-        description: 'Frontend template of first page of website made to find jobs in Japan. The website is made using NextJs, Tailwindcss and Typescript and hosted using vercel.',
-        github_link: 'https://github.com/DivyanshD07/FindWork.git',
-        live_link: 'https://find-work-liard.vercel.app/'
-    },
+    // {
+    //     // iconUrl: pricewise,
+    //     // theme: 'btn-back-red',
+    //     name: 'FindWork',
+    //     description: 'Frontend template of first page of website made to find jobs in Japan. The website is made using NextJs, Tailwindcss and Typescript and hosted using vercel.',
+    //     github_link: 'https://github.com/DivyanshD07/FindWork.git',
+    //     live_link: 'https://find-work-liard.vercel.app/'
+    // },
 ];
