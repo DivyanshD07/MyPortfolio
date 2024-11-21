@@ -187,7 +187,7 @@ export const projects = [
         name: 'Ad-Muter',
         description: 'A google extension to mute and skip ads whenever they come in between your video. The idea is to make enhance user experience while watching live streams where we always have to adjust ads volume.',
         github_link: 'https://github.com/DivyanshD07/AdMuterExtension',
-        live_link: ''
+        live_link: 'NA'
     },
     {
         // iconUrl: pricewise,
@@ -196,6 +196,14 @@ export const projects = [
         description: 'A Fullstack project made using Reactjs, Nodejs and MongoDb, where users can upload their podcasts and other people can see them, like them, and comment.',
         github_link: 'https://github.com/DivyanshD07/PodcastStreamApp',
         live_link: ''
+    },
+    {
+        // iconUrl: pricewise,
+        // theme: 'btn-back-red',
+        name: 'Stack-based Virtual Machine',
+        description: 'A stack-based virtual machine is a computing system that uses a stack structure to manage data and execute instructions. Operands are pushed onto the stack and popped off for computation, making the instruction set compact and hardware-agnostic.',
+        github_link: 'https://github.com/DivyanshD07/stack-vm',
+        live_link: 'NA'
     },
     {
         // iconUrl: pricewise,

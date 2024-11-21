@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { arrow } from '../assets/icons'
 import CTA from '../components/CTA'
 import NotFound from './NotFound'
+import NotExists from './NotExists'
 
 const Projects = () => {
   return (
@@ -48,15 +49,17 @@ const Projects = () => {
                 >
                   Github Link
                 </Link>
-                {project.live_link ? (
+                {project.live_link && project.live_link !== 'NA' ? (
                   <Link
                     to={project.live_link}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='font-semibold text-blue-600'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-600"
                   >
                     Live Link
                   </Link>
+                ) : project.live_link === 'NA' ? (
+                  <NotExists />
                 ) : (
                   <NotFound />
                 )}
