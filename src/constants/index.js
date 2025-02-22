@@ -213,6 +213,14 @@ export const projects = [
         github_link: 'https://github.com/DivyanshD07/Spiderman_Tunnel',
         live_link: 'https://spiderman-tunnel.vercel.app/'
     },
+    {
+        // iconUrl: pricewise,
+        // theme: 'btn-back-red',
+        name: 'Contact Managment APIs',
+        description: 'A secure and scalable backend for managing contacts, built using Node.js, Express, and MongoDB. Features include user authentication (JWT), CRUD operations for contacts, and middleware-based route protection.',
+        github_link: 'https://github.com/DivyanshD07/contact-managment',
+        live_link: 'NA'
+    },
     // {
     //     // iconUrl: pricewise,
     //     // theme: 'btn-back-red',
