@@ -184,6 +184,14 @@ export const projects = [
     {
         // iconUrl: pricewise,
         // theme: 'btn-back-red',
+        name: 'MoshHi',
+        description: 'A real-time chat application built using the MERN stack and WebSocket.io, allowing users to chat seamlessly with others. The app supports profile image uploads, displays active status, and ensures secure messaging with encryption. Email verification is implemented to enhance security and reliability. The goal is to provide a smooth and secure chatting experience with real-time updates.',
+        github_link: 'https://github.com/DivyanshD07/ChatApp',
+        live_link: 'https://mosh-hi.vercel.app/'
+    },
+    {
+        // iconUrl: pricewise,
+        // theme: 'btn-back-red',
         name: 'Ad-Muter',
         description: 'A google extension to mute and skip ads whenever they come in between your video. The idea is to make enhance user experience while watching live streams where we always have to adjust ads volume.',
         github_link: 'https://github.com/DivyanshD07/AdMuterExtension',
