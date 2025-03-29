@@ -195,7 +195,7 @@ export const projects = [
         name: 'Fitness-Bot',
         description: 'A web app that answers all your fitness-related questions through voice. The idea is to create a hands-free experience where users can ask health and workout queries and get instant audio responses, making fitness guidance more accessible and convenient.',
         github_link: 'https://github.com/DivyanshD07/Fitness-Bot',
-        live_link: 'Under development'
+        live_link: ''
     },
     {
         // iconUrl: pricewise,
