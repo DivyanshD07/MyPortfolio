@@ -140,10 +140,9 @@ export const experiences = [
         iconBg: "#e0e0e0",
         date: "Feb 2024 - April 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed frontend components for homepage using NextJs and TypeScript.",
+            "Collaborated with a team of developers to create the website from scratch, focusing on user-centric design and functionality.",
+            "Actively participated in design discussions, offering insights and suggestions to enhance the overall user experience.",
         ],
     },
     {
@@ -153,11 +152,12 @@ export const experiences = [
         iconBg: "#f5f6be",
         date: "Aug 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Redesigned and optimized the blog page layout, improving user experience by arranging blogs based on their latest uploads.",
-            "Resolved a critical issue where users couldn't see content immediately after signing up, ensuring consistent access both during signup and after logging in.",
-            "Adapted game dimensions to be responsive across different devices, improving accessibility and gameplay on various screen sizes.",
-            "Developed an API to integrate WhatsApp with the web platform, allowing student session information to be sent via WhatsApp messages.",
+            "Developed and maintained a React.js & Three.js website, enhancing user interactivity, now serving 200+ active users.",
+            "Resolved a critical login issue, ensuring seamless access.",
+            "Optimized blog page layout, increasing user engagement.",
+            "Integrated WhatsApp API, enabling automated session updates for students.",
+            "Boosted website traffic by 40% through SEO improvements and indexing.",
+            "Optimized Firebase hosting with caching and file reduction, reducing download size by 34.1%, resulting in faster load times and lower bandwidth costs.",
         ],
     },
 ];
@@ -188,6 +188,14 @@ export const projects = [
         description: 'A real-time chat application built using the MERN stack and WebSocket.io, allowing users to chat seamlessly with others. The app supports profile image uploads, displays active status, and ensures secure messaging with encryption. Email verification is implemented to enhance security and reliability. The goal is to provide a smooth and secure chatting experience with real-time updates.',
         github_link: 'https://github.com/DivyanshD07/ChatApp',
         live_link: 'https://mosh-hi.vercel.app/'
+    },
+    {
+        // iconUrl: pricewise,
+        // theme: 'btn-back-red',
+        name: 'Fitness-Bot',
+        description: 'A web app that answers all your fitness-related questions through voice. The idea is to create a hands-free experience where users can ask health and workout queries and get instant audio responses, making fitness guidance more accessible and convenient.',
+        github_link: 'https://github.com/DivyanshD07/Fitness-Bot',
+        live_link: 'NA'
     },
     {
         // iconUrl: pricewise,
